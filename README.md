@@ -93,12 +93,8 @@ Para utilizar o sistema, siga os passos abaixo:
 
    ```bash
    ./src/dados/csv/remuneracao/dwsiape/AAAAMM
-8. Abra o arquivo _Controle de Folha.ipynb_ e edite as constantes de definição do mês de trabalho:
+8. Renomeie o arquivo _.env.example_ para _.env_ e defina as credenciais de acesso.
 
-    ```bash
-    MES_REFERENCIA = "AAAAMM"
-    DATA_REFERENCIA_INICIO_FOLHA = "AAAA-MM-DD"
-    DATA_REFERENCIA_TERMINO_FOLHA = "AAAA-MM-DD"
 9. Inicie o _Juyter Notebook_ a partir da linha de comando:
     ```bash
     jupyter notebook
@@ -106,9 +102,15 @@ Para utilizar o sistema, siga os passos abaixo:
 
 11. Acesse o arquivo _src/Controle de Folha.ipynb_
 
-12. Execute o arquivo
+12. Edite as constantes de definição do mês de trabalho no arquivo _src/Controle de Folha.ipynb_:
 
-13.  Analise os gráficos e o relatório final gerado para obter insights sobre os pagamentos de pessoal.
+    ```bash
+    MES_REFERENCIA = "AAAAMM"
+    DATA_REFERENCIA_INICIO_FOLHA = "AAAA-MM-DD"
+    DATA_REFERENCIA_TERMINO_FOLHA = "AAAA-MM-DD"
+13. Execute o arquivo
+
+14.  Analise os gráficos e o relatório final gerado para obter insights sobre os pagamentos de pessoal.
 
 Certifique-se de revisar os comentários explicativos fornecidos ao longo do código para uma compreensão mais detalhada de cada etapa.
 
