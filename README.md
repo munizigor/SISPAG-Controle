@@ -31,9 +31,9 @@ Para executar o sistema, você precisa ter os seguintes requisitos instalados:
         │           │   └── 202309
         │           │       └── Relatório Auditoria Mensal - Set2023.txt
         │           └── remuneracao.csv
-        └── relatorioMensal - 202309.csv
+        └── relatorioMensal - AAAAMM.csv
 
-## Estrutura do Código
+## Estrutura do Arquivo _Controle de Folha.ipynb_
 
 O código está estruturado em diversos passos, cada um correspondendo a uma etapa específica do processo de controle de pagamentos. Abaixo estão os principais passos do código:
 
