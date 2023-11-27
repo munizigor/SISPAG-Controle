@@ -4,5 +4,5 @@ src/backup/
 src/relatorios/
 venv/
 src/dados/csv/remuneracao/dwsiape/*
-.env
+*.env
 src/*.csv
