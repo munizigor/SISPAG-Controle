@@ -99,9 +99,16 @@ Para utilizar o sistema, siga os passos abaixo:
     MES_REFERENCIA = "AAAAMM"
     DATA_REFERENCIA_INICIO_FOLHA = "AAAA-MM-DD"
     DATA_REFERENCIA_TERMINO_FOLHA = "AAAA-MM-DD"
-9. Execute o arquivo _Controle de Folha.ipynb_
+9. Inicie o _Juyter Notebook_ a partir da linha de comando:
+    ```bash
+    jupyter notebook
+10. De um navegador da web, acesse o endereço *<http://localhost:8888>*
 
-10.  Analise os gráficos e o relatório final gerado para obter insights sobre os pagamentos de pessoal.
+11. Acesse o arquivo _src/Controle de Folha.ipynb_
+
+12. Execute o arquivo
+
+13.  Analise os gráficos e o relatório final gerado para obter insights sobre os pagamentos de pessoal.
 
 Certifique-se de revisar os comentários explicativos fornecidos ao longo do código para uma compreensão mais detalhada de cada etapa.
 
