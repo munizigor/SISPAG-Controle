@@ -80,11 +80,11 @@ Para utilizar o sistema, siga os passos abaixo:
 3. Crie um ambiente virtual para a instalação isolada das dependências do código:
 
    ```bash
-   python -m venv /caminho/do/ambiente/virtual
+   python -m venv ./venv
 4. Ative o ambiente virtual
 
    ```bash
-   source <venv>/bin/activate
+   source venv/bin/activate
 5. Instale as dependências do sistema constantes no arquivo _requirements.txt_:
 
    ```bash
